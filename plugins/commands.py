@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/sources_cods')
+                InlineKeyboardButton('🔔 BOT Updates 🤖', url='https://t.me/StarPlus_Cinema')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/channel/UCqts9WhhlioK3RB9XQQzoAg"),
+                InlineKeyboardButton('⚡ Mises à jour du film ⚡', url=f"https://telegram.me/Starplus_Cinema"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -45,13 +45,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕↖️ AJOUTEZ-MOI À VOS GROUPES ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/channel/UCqts9WhhlioK3RB9XQQzoAg'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sources_cods')
+            InlineKeyboardButton('⚡ CINÉMA ⚡', url=f"https://telegram.me/StarPlus_Cinema"),
+            InlineKeyboardButton('🔔 LES NOUVELLES 🔔', url='https://t.me/StarPlus_Cinema')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+             InlineKeyboardButton('ℹ️ AIDES ', callback_data='help'),
+            InlineKeyboardButton('♥️ À PROPOS ♥️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -91,13 +91,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕↖️ AJOUTEZ-MOI À VOS GROUPES ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/channel/UCqts9WhhlioK3RB9XQQzoAg'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/sources_cods')
+            InlineKeyboardButton('⚡ CINÉMA ⚡', url=f"https://telegram.me/StarPlus_Cinema"),
+            InlineKeyboardButton('🔔 LES NOUVELLES 🔔', url='https://t.me/StarPlus_Cinema')
             ],[
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+             InlineKeyboardButton('ℹ️ AIDES ', callback_data='help'),
+            InlineKeyboardButton('♥️ À PROPOS ♥️', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
