@@ -12,13 +12,13 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '21529864'))
+API_HASH = environ.get('API_HASH', '6651195992:AAFCAeNjc__N9bSwfDurIjuZq83yaj_PoDg')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6651195992:AAFCAeNjc__N9bSwfDurIjuZq83yaj_PoDg')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/3f03b8c300ca96058eb58.jpg https://telegra.ph/file/0577ffb6ec25d8568b409.jpg https://telegra.ph/file/e84ab78e4f8069e874352.jpg https://telegra.ph/file/b26602546d27db481ebb9.jpg https://telegra.ph/file/f6568701577084656c040.jpg https://telegra.ph/file/b6208c91af8faa5760c63.jpg https://telegra.ph/file/184cb4b5a25d3efbdcd72.jpg')).split()
 
 # Admins, Channels & Users
