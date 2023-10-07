@@ -14,7 +14,8 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("🤖 NOUVELLES", 'https://t.me/StarPlus_Cinema')
-    START_TXT = environ.get("START_TXT", "𝙷𝙴𝙻𝙾 {}")
+    START_TXT = environ.get("START_TXT", "'''Salut👋 {},
+MON NOM EST <a href=https://t.me/{Profesor}>{2.0}</a>,\n\nFais-moi confiance ! J'ai plus d'un million de fichiers à vous servir \n\nAjoute-moi dans ton groupe et regarde la magie s'opèrer ou suis simplement les instructions dans le menu.\n\nContinuez à me soutenir")
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {Profesor 2.0}</b>
