@@ -1,6 +1,6 @@
 {
     "name": "PROFESOR",
-    "description": "Clone Of ᎯℕUℛᎯᎶ & More Features Added",
+    "description": "Clone Of retrastore2 & More Features Added",
     "stack": "container",
     "logo": "https://telegra.ph/file/94ce063e0bfa6c8cf5f01.jpg",
     "keywords": [
@@ -16,7 +16,7 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
+    "website": "https://github.com/retrastore2/retrastore2",
     "repository": "https://github.com/retrastore2/AutoAnura",
     "env": {
         "BOT_TOKEN": {
