@@ -1,8 +1,8 @@
 {
-    "name": "ᎯℕUℛᎯᎶ",
+    "name": "PROFESOR",
     "description": "Clone Of ᎯℕUℛᎯᎶ & More Features Added",
     "stack": "container",
-    "logo": "https://telegra.ph/file/9ee1253e36b37a1665ce2.jpg",
+    "logo": "https://telegra.ph/file/94ce063e0bfa6c8cf5f01.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -17,7 +17,7 @@
       "inline"
     ],
     "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
-    "repository": "https://github.com/AM-ROBOTS/AM-ROBOTS",
+    "repository": "https://github.com/retrastore2/AutoAnura",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
